@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Data </title>
+</head>
+<body>
+
+    <div>
+        <table border="Black">
+        <caption> Student Information</caption>
+        <tr>
+            <th rowspan="6"> Info</th>
+            <th rowspan="2"> Name</th>
+            <th colspan="2"> Address </th>
+       </tr>
+       <tr>
+            <th> City</th>
+            <th> House</th>
+       </tr>
+       <tr>
+        <td>A </td>
+         <td>Delhi </td>
+          <td>1 </td>
+       </tr>
+           <tr>
+        <td>B </td>
+         <td>Mumbai </td>
+          <td>2 </ td>
+       </tr>
+        <tr>
+            <td>C</td>
+            <td>Kolkata</td>
+            <td>3</td>
+       </tr>
+        <tr>
+            <td>D </td>
+            <td>Puna </td>
+            <td>4 </td>
+       </tr>
+
+    </table>
+ </div>
+ <hr>
+        <form action="/server">
+            <div>
+            <label for="Name"> Name</label> 
+            <input type="text" placeholder="Enter Name" id="Name"/></div></br>
+
+            <label for="Sex">Sex:</label>
+
+            <input type="radio"  name="sex" id="male" value="male">
+            <label for ="male">Male</lable>
+
+           <input type="radio"  name="sex" id="Female" value="Female">
+            <lablel for ="Female">Female</lable>    
+                </br></br>
+        
+            <label for="country" >Country:</label>
+            <select name= "Country" id="country">
+            <option>select an option </option>
+            <option value="India"> India</option>    
+             <option value="USA"> usa</option> 
+              <option value="Nepal">Nepal</option> 
+               <option value="Canada"> canada</option> 
+            </select>
+           </br> </br>
+
+           <label for ="message"> Message:</label><br/>
+           <textarea  name ="message" Id="message"  cols="30" rows="4" ></textarea>
+           <br/> <br/>
+
+
+           <input type="checkbox" name=" newsletter" id="newsletter"/>
+           <label for ="newsletter" > Subscribe:</label>
+            <br/> <br/>  
+            
+            <button type="submit">Submit</button>
+        </div>
+
+        </form>
+</body>
+</html>
